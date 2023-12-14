@@ -1,0 +1,64 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	
+}
+.cabecera {
+	margin: 15px;
+	float: left;
+	
+	
+	
+}
+
+.cabecera h1 {
+	margin: 20px;
+	display: inline;
+	
+}
+.cabecera img {
+	display: inline;
+	float: left;
+	width: 50px;
+	
+}
+
+.menu ul {
+	margin: 15px;
+	padding: 15px;
+	float: right;
+	
+	
+}
+
+.menu ul li {
+	display: inline;
+	margin: 20px;
+	padding: 20px;
+	
+	
+}
+
+.menu ul li a {
+	text-decoration: none;
+	font-size: 16px;
+	color: /*#1b998b*/ /*#A00AC2*/ #000000 ;
+	
+}
+
+.menu ul li a:hover {
+	text-decoration: none;
+	font-size: 16px;
+	color: #373737;
+	
+}
+
+#form {
+	text-align: center;
+	clear: both;
+}
+#texto {
+	text-align: center;
+	margin: 50px;
+	
+}
