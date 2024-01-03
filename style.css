@@ -1,0 +1,121 @@
+/*Estilos index.html */
+* {
+	margin: 0px;
+	padding: 0px;
+	background-color: #fcfcfc;
+	
+}
+header, section, footer, nav, hgroup, aside {
+	display: block;
+}
+body {
+	text-align: center;
+}
+
+p {
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	
+}
+
+/*Estilos cabecera y menú navegación */
+.cabecera {
+	margin: 15px;
+	float: left;	
+}
+.cabecera h1 {
+	margin: 20px;
+	display: inline;
+	
+}
+.cabecera img {
+	display: inline;
+	float: left;
+	width: 50px;
+}
+
+.menu ul {
+	margin: 15px;
+	padding: 15px;
+	float: right;	
+}
+
+.menu ul li {
+	display: inline;
+	margin: 20px;
+	padding: 20px;	
+}
+
+.menu ul li a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #000000;
+	padding: 8px 15px;
+	border-radius: 5px;	
+}
+
+.menu ul li a:hover {	
+	text-decoration: none;
+	font-size: 16px;
+	background-color: #F5AD8F;
+	color: #000000;
+	padding: 8px 15px;
+	border-radius: 5px;
+}
+
+/*Estilos contenido principal */
+.historia {
+	margin: 50px;
+	text-align: center;
+	clear: both;
+}
+.contenido {
+	margin: 15px;
+    padding: 15px;
+    clear: both;
+}
+
+.contenido p {
+	width: 100px;
+	display: inline;	
+}
+
+.imagen {	
+	width: 150px;
+	height: 150px;
+	margin: 40px;
+}
+.zapas {
+	width: 150px;
+	height: 150px;
+	display: inline;	
+}
+.descripcion {
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+	display: inline;
+	position: absolute;
+	width: 200px;	
+}
+
+.entrada {
+	margin: 50px;
+    padding: 50px;
+    float: left;
+    width: 200px;
+    clear: both;
+    position: fixed;
+}
+
+.entrada p {
+	margin: 10px;
+	padding: 20px;
+}
+
+/*Estilos footer */
+.pie {
+	float: center;
+	clear: both;	
+}
+
+

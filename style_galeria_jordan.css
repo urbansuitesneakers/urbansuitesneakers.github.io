@@ -1,0 +1,81 @@
+/*Estilos galeriajordan.html */
+* {
+	margin: 0px;
+	padding: 0px;	
+}
+
+/*Estilos cabecera y menú de navegación */
+.cabecera {
+	margin: 15px;
+	float: left;	
+}
+
+.cabecera h1 {
+	margin: 20px;
+	display: inline;	
+}
+.cabecera img {
+	display: inline;
+	float: left;
+	width: 50px;	
+}
+
+.menu ul {
+	margin: 15px;
+	padding: 15px;
+	float: right;	
+}
+
+.menu ul li {
+	display: inline;
+	margin: 20px;
+	padding: 20px;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #000000;
+	padding: 8px 15px;
+	border-radius: 5px;
+}
+
+.menu ul li a:hover {	
+	text-decoration: none;
+	font-size: 16px;
+	background-color: #F5AD8F;
+	color: #000000;
+	padding: 8px 15px;
+	border-radius: 5px;
+}
+
+/*Estilos marcas */
+.marcas{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	clear: both;
+	background-color: #f2f2f2;
+	color: #A00AC2;
+	padding: 8px 15px;
+	border-radius: 5px;
+}
+
+.logomarca {
+	width: 150px;
+	height: 150px;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	clear: both;
+	background-color: #f2f2f2;
+	color: #A00AC2;
+	padding: 8px 15px;
+	border-radius: 5px;
+}
+
+.jordan {
+	margin: 10px 20px;
+	width: 150px;
+	height: 150px;
+}
