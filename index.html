@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Sneakers" />
+		<meta name="keywords" content="sneakers, streetwear,sneakersheads, reventa, resael" />
+		<title>URBAN SUITE SNEAKERS</title>
+		<script src="custom.js" defer></script>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header class="cabecera">
+		<hgroup>
+			<h1>URBAN SUITE SNEAKERS</h1> 
+			<a href="index.html"><img src="iconos/logos/logo.jpg"></a>
+		</hgroup>		
+		</header>	
+		<nav class="menu">
+			<ul>
+				<li><a href="index.html">INICIO</a></li>
+				<li><a href="galeria.html">GALERÍA</a></li>
+				<li><a href="contacto.html">CONTACTO</a></li>			
+			</ul>			
+		</nav>
+		<div class="contenedorCarrito">            
+            <div>
+                <img src="iconos/logos/compra.png" onclick="showCart(this)" class="cart" alt="">
+                <p class="count-product">0</p>
+            </div>
+            <div class="cart-products" id="products-id">
+                <p class="close-btn" onclick="closeBtn()">X</p>
+                <h3>Productos</h3>
+                <div class="card-items">
+                    
+                </div>
+                <h2>Total: <strong class="price-total">0</strong></h2>
+            </div>
+        </div>
+		<aside class="historia">
+			<p>
+				Somos una tienda especializada en la reventa de sneakers y streetwear. Lo que comenzó como un hobbie hoy en día se esta convirtiendo en un negocio.
+			</p>
+			<p>
+				Poseemos las mejores herramientas del mercado para garantizar cualquier par o prenda y obtenerlo el día del lanzamiento. 
+			</p>
+				<p>
+				Actualmente estamos en constante crecimiento y haciendo realidad un sueño.
+				</p>
+		</aside>		
+		<aside class="entrada">
+			<blockquote>
+				<p>
+				El talento gana partidos, <br> 
+				pero el trabajo en equipo gana campeonatos. <br> 
+				<cite>Michael Jordan</cite>
+				</p>
+			</blockquote>			
+			<blockquote>
+				<p>
+					Determino vivir la vida <br>
+					con estilo y risa. <br>
+					<cite>Maya Angelou</cite>
+				</p>
+			</blockquote>			
+			<blockquote>
+				<p>
+					Trabaja duro en silencio, <br>
+					que el éxito sea tu ruido. <br>
+					<cite>Frank Ocean</cite>
+				</p>
+			</blockquote>
+			</aside >
+		<!-- Contenido -->
+		<section class="contenido">
+		<!-- Sneakers -->
+			<div class="snkrs">			
+			<!-- Ítems de zapatillas -->			
+			<div class="zapas">
+			<h4 class="titulo">
+				Nike Dunk Low SP 'St. John's' (2020/2023)
+			</h4>
+			<br>			
+			<div>
+			<a href="galerianike.html"><img  class="fotos" src="iconos/sneakers/dunkred.jpg"></a>
+			</div>
+			<br>
+			<p class="disponibilidad">
+				Estado: No disponible
+			</p>
+			<br>		
+			<p class="talla">
+				Talla: 40
+			</p>
+			<br>
+			<p class="sku">
+				SKU: CU1727-100
+			</p>
+			<br>
+			<p class="precio">
+				Precio: 150,85
+			</p>
+			<br>
+			<button data-id="1" class="botonAñadir">Añadir al carrito</button>			
+			</div>
+			<div class="zapas">
+			<h4 class="titulo">
+				Adidas Response CL 'Bad Bunny'
+			</h4>
+			<br>
+			<div>
+			<a href="galeriaadidas.html"><img class="fotos" src="iconos/sneakers/badbublack.jpg" ></a>
+			</div>
+			<br>
+			<p class="disponibilidad">
+				Estado: Disponible
+			</p>
+			<br>
+			<p class="talla">
+				Tallas: 42-47
+			</p>
+			<br>
+			<p class="sku">
+				SKU: ID0805
+			</p>
+			<br>
+			<p class="precio">
+				Precio: 150€
+			</p>
+			<br>			
+			<button data-id="2" class="botonAñadir">Añadir al carrito</button>
+			</div>	
+			<div class="zapas">
+			<h4 class="titulo">
+				Nike SB Dunk Low 'Albino & Preto'
+			</h4>
+			<br>
+			<div>
+			<a href="galerianike.html"><img class="fotos" src="iconos/sneakers/sbalbino.jpg"></a>
+			</div>
+			<br>
+			<p class="disponibilidad">
+				Estado: Disponible
+			</p>
+			<br>
+			<p class="talla">
+				Tallas: 44-46
+			</p>
+			<br>
+			<p class="sku">
+				SKU: FD2627-200
+			</p>
+			<br>
+			<p class="precio">
+				Precio: 150€
+			</p>			
+			<br>
+			<button data-id="3" class="botonAñadir">Añadir al carrito</button>
+			</div>			
+			<div class="zapas">
+			<h4 class="titulo">
+				Adidas Yeezy Slide 'Bone' (Reposición 2022/2023)
+			</h4>
+			<br>
+			<div>
+			<a href="galeriayeezy.html"><img class="fotos" src="iconos/sneakers/slidebone.jpg"></a>
+			</div>
+			<br>
+			<p class="disponibilidad">
+				Estado: Disponible
+			</p>
+			<br>
+			<p class="talla">
+				Tallas: 44-48.5
+			</p>
+			<br>
+			<p class="sku">
+				SKU: FZ5897
+			</p>
+			<br>
+			<p class="precio">
+				Precio: 150€
+			</p>
+			<br>			
+			<button data-id="4" class="botonAñadir">Añadir al carrito</button>
+			</div>			
+			<div class="zapas">
+			<h4 class="titulo">
+				Adidas Forum Powerphase Bad Bunny 'Benito'
+			</h4>
+			<br>
+			<div>
+			<a href="galeriaadidas.html"><img class="fotos" src="iconos/sneakers/powerphase.jpg"></a>
+			</div>
+			<br>
+			<p class="disponibilidad">
+				Estado: Disponible
+			</p>
+			<br>
+			<p class="talla">
+				Tallas: 40-43
+			</p>
+			<br>
+			<p class="sku">
+				SKU: GZ2009
+			</p>
+			<br>
+			<p class="precio">
+				Precio: 150€
+			</p>
+			<br>			
+			<button data-id="5" class="botonAñadir">Añadir al carrito</button>
+			</div>			
+			<div class="zapas">
+			<h4 class="titulo">
+				Nike Dunk Low 'Championship Court in Purple'
+			</h4>
+			<br>
+			<div>
+			<a href="galerianike.html"><img class="fotos" src="iconos/sneakers/dunkpurple.jpg"></a>
+			</div>
+			<br>
+			<p class="disponibilidad">
+				Estado: Disponible
+			</p>
+			<br>
+			<p class="talla">
+				Tallas: 40-46
+			</p>
+			<br>
+			<p class="sku">
+				SKU: DD1391-104
+			</p>
+			<br>
+			<p class="precio">
+				Precio: 150€
+			</p>
+			<br>			
+			<button data-id="6" class="botonAñadir">Añadir al carrito</button>
+			</div>			
+			<div class="zapas">
+			<h4 class="titulo">
+				Adidas Campus 00s 'Better in Scarlet and Cloud White'
+			</h4>
+			<br>
+			<div>
+			<a href="galeriaadidas.html"><img class="fotos" src="iconos/sneakers/campusred.jpg"></a>
+			</div>
+			<br>
+			<p class="disponibilidad">
+				Estado: Disponible
+			</p>
+			<br>
+			<p class="talla">
+				Tallas: 37-40
+			</p>
+			<br>
+			<p class="sku">
+				SKU: H03474
+			</p>
+			<br>
+			<p class="precio">
+				Precio: 150€
+			</p>
+			<br>			
+			<button data-id="7" class="botonAñadir">Añadir al carrito</button>
+			</div>								
+			<div class="zapas">
+			<h4 class="titulo">
+				Adidas Yeezy Slide 'Azure'
+			</h4>
+			<br>
+			<div>
+			<a href="galeriayeezy.html"><img class="fotos" src="iconos/sneakers/slideazure.jpg"></a>
+			</div>
+			<br>
+			<p class="disponibilidad">
+				Estado: Disponible
+			</p>
+			<br>
+			<p class="talla">
+				Tallas: 40-43
+			</p>
+			<br>
+			<p class="sku">
+				SKU: ID4133
+			</p>
+			<br>
+			<p class="precio">
+				Precio: 150€
+			</p>
+			<br>			
+			<button data-id="8" class="botonAñadir">Añadir al carrito</button>
+			</div>						
+			<div class="zapas">
+			<h4 class="titulo">
+				Nike Dunk Low 'Photon Dust' (women's)
+			</h4>
+			<br>
+			<div>
+			<a href="galerianike.html"><img class="fotos" src="iconos/sneakers/photon.jpg"></a>
+			</div>
+			<br>
+			<p class="disponibilidad">
+				Estado: Disponible
+			</p>
+			<br>
+			<p class="talla">
+				Tallas: 36-38
+			</p>
+			<br>
+			<p class="sku">
+				SKU: DD1503-103
+			</p>
+			<br>
+			<p class="precio">
+				Precio: 150€
+			</p>
+			<br>			
+			<button data-id="9" class="botonAñadir">Añadir al carrito</button>
+			</div>						
+			<div class="zapas">
+			<h4 class="titulo">
+				Adidas Campus Light 'Bad Bunny in Chalk Brown'
+			</h4>
+			<br>
+			<div>
+			<a href="galeriaadidas.html"><img class="fotos" src="iconos/sneakers/badbucampus.jpg"></a>
+			</div>
+			<br>
+			<p class="disponibilidad">
+				Estado: Disponible
+			</p>
+			<br>
+			<p class="talla">
+				Tallas: 40-42
+			</p>
+			<br>
+			<p class="sku">
+				SKU: ID2529
+			</p>
+			<br>
+			<p class="precio">
+				Precio: 150€
+			</p>
+			<br>			
+			<button data-id="10" class="botonAñadir">Añadir al carrito</button>
+			</div>					
+			<div class="zapas">
+			<h4 class="titulo">
+				Jordan x Union MJ S/S Tee
+			</h4>
+			<br>
+			<div>
+			<a href="galeriajordan.html"><img class="fotos" src="iconos/clothes/jordan.jpg"></a>
+			</div>
+			<br>
+			<p class="disponibilidad">
+				Estado: Disponible
+			</p>
+			<br>
+			<p class="talla">
+				Tallas: M,L
+			</p>
+			<br>
+			<p class="sku">
+				SKU: DV7343-010
+			</p>
+			<br>
+			<p class="precio">
+				Precio: 150€
+			</p>
+			<br>			
+			<button data-id="11" class="botonAñadir">Añadir al carrito</button>
+			</div>						
+			<div class="zapas">
+			<h4 class="titulo">
+				Jordan x Union MJ S/S Tee
+			</h4>
+			<br>
+			<div>
+			<a href="galeriajordan.html"><img class="fotos" src="iconos/clothes/jordan5.jpg"></a>
+			</div>
+			<br>
+			<p class="disponibilidad">
+				Estado: Disponible
+			</p>
+			<br>
+			<p class="talla">
+				Tallas: S,L
+			</p>
+			<br>
+			<p class="sku">
+				SKU: DV7343-296
+			</p>
+			<br>
+			<p class="precio">
+				Precio: 150€
+			</p>
+			<br>			
+			<button data-id="12" class="botonAñadir">Añadir al carrito</button>
+			</div>					
+			<div class="zapas">
+			<h4 class="titulo">
+				Jordan x Union MJ S/S Tee
+			</h4>
+			<br>
+			<div>
+			<a href="galeriajordan.html"><img class="fotos" src="iconos/clothes/jordan4.jpg"></a>
+			</div>
+			<br>
+			<p class="disponibilidad">
+				Estado: Disponible
+			</p>
+			<br>
+			<p class="talla">
+				Tallas: XL
+			</p>
+			<br>
+			<p class="sku">
+				SKU: DV7343-100
+			</p>
+			<br>
+			<p class="precio">
+				Precio: 150€
+			</p>
+			<br>			
+			<button data-id="13" class="botonAñadir">Añadir al carrito</button>
+			</div>					
+			<div class="zapas">
+			<h4 class="titulo">
+				Adidas Yeezy Slide 'Onyx' (2022/2023)
+			</h4>
+			<br>
+			<div>
+			<a href="galeriayeezy.html"><img class="fotos" src="iconos/sneakers/slideonyx.jpg"></a>
+			</div>
+			<br>
+			<p class="disponibilidad">
+				Estado: Disponible
+			</p>
+			<br>
+			<p class="talla">
+				Tallas: 46-48.5
+			</p>
+			<br>
+			<p class="sku">
+				SKU: HQ6448
+			</p>
+			<br>
+			<p class="precio">
+				Precio: 150€
+			</p>
+			<br>
+			<button data-id="14" class="botonAñadir">Añadir al carrito</button>
+			</div>				
+			<div class="zapas">
+			<h4 class="titulo">
+				Nike Air Force 1 Low 'Supreme Black'
+			</h4>
+			<br>
+			<div>
+			<a href="galerianike.html"><img class="fotos" src="iconos/sneakers/af1black.jpg"></a>
+			</div>
+			<br>
+			<p class="disponibilidad">
+				Estado: Disponible
+			</p>
+			<br>
+			<p class="talla">
+				Tallas: 40-45
+			</p>
+			<br>
+			<p class="sku">
+				SKU: CU9225-001
+			</p>
+			<br>
+			<p class="precio">
+				Precio: 150€
+			</p>
+			<br>
+			<button data-id="15" class="botonAñadir">Añadir al carrito</button>
+			</div>
+			<div class="zapas">
+			<h4 class="titulo">
+				Adidas Forum Buckle Low 'Bad Bunny Last Forum'
+			</h4>
+			<br>
+			<div>
+			<a href="galeriaadidas.html"><img class="fotos" src="iconos/sneakers/badbuwhite.jpg"></a>
+			</div>
+			<br>
+			<p class="disponibilidad">
+				Estado: Disponible
+			</p>
+			<br>
+			<p class="talla">
+				Tallas: 40-43
+			</p>
+			<br>
+			<p class="sku">
+				SKU: HQ2153
+			</p>
+			<br>
+			<p class="precio">
+				Precio: 150€
+			</p>
+			<br>
+			<button data-id="16" class="botonAñadir">Añadir al carrito</button>
+			</div>				
+			<div class="zapas">
+			<h4 class="titulo">
+				Nike Dunk Low 'Pink Corduroy' (Women´s)
+			</h4>
+			<br>
+			<div>
+			<a href="galerianike.html"><img class="fotos" src="iconos/sneakers/dunkpink.jpg"></a>
+			</div>
+			<br>
+			<p class="disponibilidad">
+				Estado: Disponible
+			</p>
+			<br>
+			<p class="talla">
+				Tallas: 36-40
+			</p>
+			<br>
+			<p class="sku">
+				SKU: FN7167-100
+			</p>
+			<br>
+			<p class="precio">
+				Precio: 150€
+			</p>
+			<br>			
+			<button data-id="17" class="botonAñadir">Añadir al carrito</button>
+			</div>					
+			<div class="zapas">
+			<h4 class="titulo">
+				Adidas Gazelle Indoor 'in pink and purple' (Women's)
+			</h4>
+			<br>
+			<div>
+			<a href="galeriaadidas.html"><img class="fotos" src="iconos/sneakers/gazelle.jpg"></a>
+			</div>
+			<br>
+			<p class="disponibilidad">
+				Estado: Disponible
+			</p>
+			<br>
+			<p class="talla">
+				Tallas: 36-38
+			</p>
+			<br>
+			<p class="sku">
+				SKU: IE7002
+			</p>
+			<br>
+			<p class="precio">
+				Precio: 150€
+			</p>
+			<br>			
+			<button data-id="18" class="botonAñadir">Añadir al carrito</button>
+			</div>						
+			<div class="zapas">
+			<h4 class="titulo">
+				Jordan x J Balvin T-shirt
+			</h4>
+			<br>
+			<div>
+			<a href="galeriajordan.html"><img class="fotos" src="iconos/clothes/balvin6.jpg"></a>
+			</div>
+			<br>
+			<p class="disponibilidad">
+				Estado: Disponible
+			</p>
+			<br>
+			<p class="talla">
+				Tallas: L
+			</p>
+			<br>
+			<p class="sku">
+				SKU: DR2962-010
+			</p>
+			<br>
+			<p class="precio">
+				Precio: 150€
+			</p>
+			<br>			
+			<button data-id="19" class="botonAñadir">Añadir al carrito</button>
+			</div>			
+			<div class="zapas">
+			<h4 class="titulo">
+				Nike T-shirt
+			</h4>
+			<br>
+			<div>
+			<a href="galerianike.html"><img class="fotos" src="iconos/clothes/nike3.jpg"></a>
+			</div>
+			<br>
+			<p class="disponibilidad">
+				Estado: No Disponible
+			</p>
+			<br>
+			<p class="talla">
+				Tallas: S
+			</p>
+			<br>
+			<p class="sku">
+				SKU: DN5697-063
+			</p>
+			<br>
+			<p class="precio">
+				Precio: 150€
+			</p>
+			<br>			
+			<button data-id="20" class="botonAñadir">Añadir al carrito</button>
+			</div>			
+			<div class="zapas">
+			<h4 class="titulo">
+				Nike T-shirt
+			</h4>
+			<br>
+			<div>
+			<a href="galerianike.html"><img class="fotos" src="iconos/clothes/nike.jpg"></a>
+			</div>
+			<br>
+			<p class="disponibilidad">
+				Estado: No Disponible
+			</p>
+			<br>
+			<p class="talla">
+				Tallas: M
+			</p>
+			<br>
+			<p class="sku">
+				SKU: DN5697-200
+			</p>
+			<br>
+			<p class="precio">
+				Precio: 150€
+			</p>
+			<br>			
+			<button data-id="21" class="botonAñadir">Añadir al carrito</button>
+			</div>			
+			<div class="zapas">
+			<h4 class="titulo">
+				Jordan x J Balvin Sweatpants
+			</h4>
+			<br>
+			<div>
+			<a href="galeriajordan.html"><img class="fotos" src="iconos/clothes/balvin3.jpg"></a>
+			</div>
+			<br>			
+			<p class="disponibilidad">
+				Estado: No Disponible
+			</p>
+			<br>
+			<p class="talla">
+				Tallas: XL
+			</p>
+			<br>
+			<p class="sku">
+				SKU: DR2960-029
+			</p>
+			<br>
+			<p class="precio">
+				Precio: 150€
+			</p>
+			<br>			
+			<button data-id="22" class="botonAñadir">Añadir al carrito</button>
+			</div>
+			</div>
+		</section>
+		<footer class="pie">
+			<p>
+				Copyright 2023.
+			</p>
+		</footer>	
+				
+	</body>
+</html>
