@@ -1,0 +1,95 @@
+/* Estilos contacto.html */
+* {
+	margin: 0px;
+	padding: 0px;	
+}
+
+/* Estilos para cabecera y menú de navegación */
+.cabecera {
+	margin: 15px;
+	float: left;	
+}
+
+.cabecera h1 {
+	margin: 20px;
+	display: inline;	
+}
+.cabecera img {
+	display: inline;
+	float: left;
+	width: 50px;	
+}
+.menu ul {
+	margin: 15px;
+	padding: 15px;
+	float: right;	
+}
+
+.menu ul li {
+	display: inline;
+	margin: 20px;
+	padding: 20px;	
+}
+
+.menu ul li a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #000000;
+	padding: 8px 15px;
+	border-radius: 5px;	
+}
+
+.menu ul li a:hover {	
+	text-decoration: none;
+	font-size: 16px;
+	background-color: #F5AD8F;
+	color: #000000;
+	padding: 8px 15px;
+	border-radius: 5px;	
+}
+
+/* Estilos para el formulario */
+#form {
+	text-align: center;
+	clear: both;
+	width: 300px;
+	margin: 0 auto;
+	font-family: Arial, sans-serif;
+}
+
+/* Estilos para las etiquetas */
+label {
+	display: block;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+/* Estilos para los inputs */
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type="submit"] {
+	
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #45a049;
+}
+/* Estilos para campo área */
+#texto {
+	width: 300px;
+	height: 50px; 
+	margin: 0 auto;
+}

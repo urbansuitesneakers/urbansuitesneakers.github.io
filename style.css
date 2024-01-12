@@ -1,0 +1,220 @@
+/*Estilos index.html*/
+* {
+	margin: 0px;
+	padding: 0px;
+	background-color: #fcfcfc;	
+}
+header, section, footer, nav, hgroup, aside {
+	display: block;
+}
+body {
+	text-align: center;
+}
+
+p {
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	
+}
+/* Estilos para el encabezado, contenedor del carrito y menú */
+.cabecera,
+.contenedorCarrito,
+.menu {
+	padding: 10px;
+}
+
+.menu, .contenedorCarrito{
+	display: inline-block;
+
+}
+.contenedorCarrito {
+	vertical-align: top;
+}
+/*Estilos cabecera y menú navegación */
+.cabecera {
+	margin: 15px;
+	float: left;	
+}
+.cabecera h1 {
+	margin: 20px;
+	display: inline;
+	
+}
+.cabecera img {
+	display: inline;
+	float: left;
+	width: 50px;
+}
+
+.menu ul {
+	margin: 15px;
+	padding: 15px;
+	float: right;	
+}
+
+.menu ul li {
+	display: inline;
+	margin: 20px;
+	padding: 20px;	
+}
+
+.menu ul li a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #000000;
+	padding: 8px 15px;
+	border-radius: 5px;	
+}
+
+.menu ul li a:hover {	
+	text-decoration: none;
+	font-size: 16px;
+	background-color: #F5AD8F;
+	color: #000000;
+	padding: 8px 15px;
+	border-radius: 5px;
+}
+
+/* Estilos carrito de compras*/
+.cart{
+    width: 35px;
+    height: 35px;
+}
+.productosEnCarrito{
+    position: absolute!important;
+    top: 82px;
+    right: -18px;
+    background-color: #fff;
+    padding: 0 18px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    display: none;
+    min-width: 90px;
+}
+.productosEnCarrito .item img{
+    width: 115px;
+}
+
+.productosEnCarrito .item{
+    display: flex;
+    align-items: center;
+    border-bottom: solid 2px #3E885B;
+}
+.productosEnCarrito .item .item-content{
+    margin: 0 19px;
+    width: 201px;
+}
+.productosEnCarrito .item .item-content h5{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+.productosEnCarrito .item .item-content h6{
+    margin: 0;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+.productosEnCarrito .item span{
+    background-color: red;
+    padding: 0px 5px;
+    border-radius: 50%;
+    color: #fff;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.productosEnCarrito h3{
+    margin-bottom: 0;
+}
+.productosEnCarrito .item .item-content h5.cart-price{
+    font-weight: 700;
+}
+/*Estilo para X de carrito */
+p.cerrarCarrito{
+	background-color: red;   
+    color: #fff;
+    top: -4px;
+    right: 6px;
+    cursor: pointer;
+    color: #000;
+}
+/*Estilos botón para añadir al carrito*/
+.botonAñadir {
+    font-family: system-ui;
+    text-decoration: none;
+    background: #3E885B;
+    padding: 9px 23px;
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.botonAñadir:hover{
+    background: #fff;
+    color: #3E885B;
+    border: solid 2px #3E885B;
+    transition-duration: .3s;
+}
+
+/* Estilos para la sección de historia */
+.historia {
+  text-align: center;
+  margin-top: 150px;
+}
+/*Estilos contenido principal */
+
+.contenido {
+	width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Estilos para la sección de zapas (centro) */
+.contenido {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.zapas {
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+.zapas img {
+	width: 150px;
+}
+
+/* Estilos para la entrada (parte izquierda fija) */
+.entrada {
+  position: fixed;
+  top: 350px;
+  left: 20px;
+}
+
+.entrada p {
+	margin: 10px;
+	padding: 20px;
+}
+/*Estilos flecha*/
+.flechaInicio {
+	width: 50px;
+	position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #F1D6B8;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+/*Estilos footer */
+.pie {
+	float: center;
+	clear: both;	
+}
+
+
