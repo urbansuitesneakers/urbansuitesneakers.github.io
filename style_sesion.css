@@ -1,0 +1,186 @@
+ /*Estilos index.html*/
+* {
+	margin: 0px;
+	padding: 0px;
+	background-color: #fcfcfc;	
+}
+header, section, footer, nav, hgroup, aside {
+	display: block;
+}
+body {
+	text-align: center;
+}
+
+p {
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	
+}
+/* Estilos para el encabezado, contenedor del carrito y menú */
+.cabecera,
+.contenedorCarrito,
+.menu {
+	padding: 10px;
+}
+
+.menu, .contenedorCarrito{
+	display: inline-block;
+
+}
+.contenedorCarrito {
+	vertical-align: top;
+}
+/*Estilos cabecera y menú navegación */
+.cabecera {
+	margin: 15px;
+	float: left;	
+}
+.cabecera h1 {
+	margin: 20px;
+	display: inline;
+	
+}
+.cabecera img {
+	display: inline;
+	float: left;
+	width: 50px;
+}
+
+.menu ul {
+	margin: 15px;
+	padding: 15px;
+	float: right;	
+}
+
+.menu ul li {
+	display: inline;
+	margin: 20px;
+	padding: 20px;	
+}
+
+.menu ul li a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #000000;
+	padding: 8px 15px;
+	border-radius: 5px;	
+}
+
+.menu ul li a:hover {	
+	text-decoration: none;
+	font-size: 16px;
+	background-color: #F5AD8F;
+	color: #000000;
+	padding: 8px 15px;
+	border-radius: 5px;
+}
+.contenedor {
+	max-width: 500px;
+	width: 90%;
+	margin: auto;
+}
+
+.titulo {
+	font-weight: 300;
+	color: #000000;
+	text-align: center;
+	margin: 60px 0 30px 0;
+}
+
+.border {
+	border: none;
+	margin-bottom: 5px;
+	border-top: 10px solid #000000;
+	background: none;
+	color: none;
+}
+
+.formulario {
+	background: #F5AD8F;
+	padding: 30px;
+	margin-bottom: 10px;
+}
+
+.formulario .form-group{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="password"] {
+	padding: 15px;
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 18px;
+	border: none;
+	vertical-align: top;
+	
+}
+
+.formulario .icono {
+	padding: 15px;
+	text-align: center;
+	width: 48px;
+	max-height: 48px;
+	font-size: 18px;
+	line-height: 18px;
+	background: #c8c8c8;
+	float: left;
+	color: #6b6b6b;
+	vertical-align: top;
+}
+
+.formulario .icono .izquierda {
+	margin-right: 4px;
+	-webkit-border-radius: 3px 0 0 3px;
+	-moz-border-radius: 3px 0 0 3px;
+	-ms-border-radius: 3px 0 0 3px;
+	-o-border-radius: 3px 0 0 3px;
+	border-radius: 3px 0 0 3px;
+}
+
+.formulario .usuario,
+.formulario .password {
+	width: calc(100% - 52px);
+	-webkit-border-radius: 0 3px 3px 0;
+	-moz-border-radius: 0 3px 3px 0;
+	-ms-border-radius: 0 3px 3px 0;
+	-o-border-radius: 0 3px 3px 0;
+	border-radius: 0 3px 3px 0;
+	
+}
+
+.formulario .password_btn {
+	width: calc(100% - 105px);
+}
+.formulario .error ul {
+	padding: 0 15px;
+}
+.formulario .error ul li {
+	margin-bottom: 10px;
+}
+.formulario .submit-btn {
+	padding: 15px;
+	text-align: center;
+	width: 16px;
+	max-height: 16px;
+	font-size: 16px;
+	line-height: 16px;
+	background: #679863;
+	display: inline-block;
+	color: #fff;
+	background: #769766;
+	cursor: pointer;
+	
+	-webkit-border-radius: 0 3px 3px 0;
+	-moz-border-radius: 0 3px 3px 0;
+	-ms-border-radius: 0 3px 3px 0;
+	-o-border-radius: 0 3px 3px 0;
+	border-radius: 0 3px 3px 0;
+}
+
+.texto-registrate {
+	text-align: center;
+}
+.texto-registrate a{
+	display: block;
+}
